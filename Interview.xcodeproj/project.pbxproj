@@ -97,12 +97,10 @@
 		0BA58BC91CCB3F9100EBCE3D /* Interview */ = {
 			isa = PBXGroup;
 			children = (
-				0BA58BCA1CCB3F9100EBCE3D /* AppDelegate.swift */,
-				0BA58BCC1CCB3F9100EBCE3D /* ViewController.swift */,
-				0BA58BCE1CCB3F9100EBCE3D /* Main.storyboard */,
-				0BA58BD11CCB3F9100EBCE3D /* Assets.xcassets */,
-				0BA58BD31CCB3F9100EBCE3D /* LaunchScreen.storyboard */,
-				0BA58BD61CCB3F9100EBCE3D /* Info.plist */,
+				0BA58BFA1CCB44BC00EBCE3D /* Model */,
+				0BA58BFB1CCB44CA00EBCE3D /* Controller */,
+				0BA58BFC1CCB44D600EBCE3D /* View */,
+				0BA58BFD1CCB450200EBCE3D /* Supporting Files */,
 			);
 			path = Interview;
 			sourceTree = "<group>";
@@ -123,6 +121,40 @@
 				0BA58BEC1CCB3F9100EBCE3D /* Info.plist */,
 			);
 			path = InterviewUITests;
+			sourceTree = "<group>";
+		};
+		0BA58BFA1CCB44BC00EBCE3D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		0BA58BFB1CCB44CA00EBCE3D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0BA58BCC1CCB3F9100EBCE3D /* ViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		0BA58BFC1CCB44D600EBCE3D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0BA58BCE1CCB3F9100EBCE3D /* Main.storyboard */,
+				0BA58BD31CCB3F9100EBCE3D /* LaunchScreen.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		0BA58BFD1CCB450200EBCE3D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0BA58BCA1CCB3F9100EBCE3D /* AppDelegate.swift */,
+				0BA58BD11CCB3F9100EBCE3D /* Assets.xcassets */,
+				0BA58BD61CCB3F9100EBCE3D /* Info.plist */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -194,6 +226,11 @@
 					0BA58BC61CCB3F9100EBCE3D = {
 						CreatedOnToolsVersion = 7.3;
 						DevelopmentTeam = 93QVPY82BG;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 0;
+							};
+						};
 					};
 					0BA58BDA1CCB3F9100EBCE3D = {
 						CreatedOnToolsVersion = 7.3;
