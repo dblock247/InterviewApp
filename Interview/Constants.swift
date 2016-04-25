@@ -11,3 +11,11 @@ import Foundation
 typealias JSONDictionary = [String: AnyObject]
 
 typealias JSONArray = Array<AnyObject>
+
+struct Constants {
+    struct Network {
+        static let WiFi = "Wifi Available"
+        static let NoAcess = "No Internet Access"
+        static let WWAN = "Cellular Access Available"
+    }
+}
