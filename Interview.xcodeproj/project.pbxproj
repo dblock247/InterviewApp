@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B5569671CCDD43400DFA885 /* MusicVideoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5569661CCDD43400DFA885 /* MusicVideoTableViewCell.swift */; };
 		0BA58BCB1CCB3F9100EBCE3D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BA58BCA1CCB3F9100EBCE3D /* AppDelegate.swift */; };
 		0BA58BCD1CCB3F9100EBCE3D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BA58BCC1CCB3F9100EBCE3D /* ViewController.swift */; };
 		0BA58BD01CCB3F9100EBCE3D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BA58BCE1CCB3F9100EBCE3D /* Main.storyboard */; };
@@ -18,6 +19,9 @@
 		0BA58C021CCD7F4A00EBCE3D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BA58C011CCD7F4A00EBCE3D /* Constants.swift */; };
 		0BA58C041CCD80C200EBCE3D /* MusicVideo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BA58C031CCD80C200EBCE3D /* MusicVideo.swift */; };
 		0BA58C091CCD9CA300EBCE3D /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BA58C081CCD9CA300EBCE3D /* Reachability.m */; };
+		0BA58C0D1CCDCB9800EBCE3D /* MusicVideoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BA58C0C1CCDCB9800EBCE3D /* MusicVideoTableViewController.swift */; };
+		0BE2E0561CCEB45500872D5E /* MusicVideoDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE2E0551CCEB45500872D5E /* MusicVideoDetailViewController.swift */; };
+		0BE2E0581CCEC78400872D5E /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE2E0571CCEC78400872D5E /* SettingsTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0B5569661CCDD43400DFA885 /* MusicVideoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicVideoTableViewCell.swift; sourceTree = "<group>"; };
 		0BA58BC71CCB3F9100EBCE3D /* Interview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Interview.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BA58BCA1CCB3F9100EBCE3D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0BA58BCC1CCB3F9100EBCE3D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -57,6 +62,9 @@
 		0BA58C061CCD9CA200EBCE3D /* Interview-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Interview-Bridging-Header.h"; sourceTree = "<group>"; };
 		0BA58C071CCD9CA300EBCE3D /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
 		0BA58C081CCD9CA300EBCE3D /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		0BA58C0C1CCDCB9800EBCE3D /* MusicVideoTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicVideoTableViewController.swift; sourceTree = "<group>"; };
+		0BE2E0551CCEB45500872D5E /* MusicVideoDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicVideoDetailViewController.swift; sourceTree = "<group>"; };
+		0BE2E0571CCEC78400872D5E /* SettingsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +156,10 @@
 			isa = PBXGroup;
 			children = (
 				0BA58BCC1CCB3F9100EBCE3D /* ViewController.swift */,
+				0BA58C0C1CCDCB9800EBCE3D /* MusicVideoTableViewController.swift */,
+				0B5569661CCDD43400DFA885 /* MusicVideoTableViewCell.swift */,
+				0BE2E0551CCEB45500872D5E /* MusicVideoDetailViewController.swift */,
+				0BE2E0571CCEC78400872D5E /* SettingsTableViewController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -331,9 +343,13 @@
 				0BA58BFF1CCD5FBD00EBCE3D /* APIManager.swift in Sources */,
 				0BA58BCD1CCB3F9100EBCE3D /* ViewController.swift in Sources */,
 				0BA58C041CCD80C200EBCE3D /* MusicVideo.swift in Sources */,
+				0B5569671CCDD43400DFA885 /* MusicVideoTableViewCell.swift in Sources */,
+				0BA58C0D1CCDCB9800EBCE3D /* MusicVideoTableViewController.swift in Sources */,
 				0BA58BCB1CCB3F9100EBCE3D /* AppDelegate.swift in Sources */,
+				0BE2E0581CCEC78400872D5E /* SettingsTableViewController.swift in Sources */,
 				0BA58C091CCD9CA300EBCE3D /* Reachability.m in Sources */,
 				0BA58C021CCD7F4A00EBCE3D /* Constants.swift in Sources */,
+				0BE2E0561CCEB45500872D5E /* MusicVideoDetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -565,6 +581,7 @@
 				0BA58BF11CCB3F9100EBCE3D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0BA58BF21CCB3F9100EBCE3D /* Build configuration list for PBXNativeTarget "InterviewTests" */ = {
 			isa = XCConfigurationList;
@@ -573,6 +590,7 @@
 				0BA58BF41CCB3F9100EBCE3D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0BA58BF51CCB3F9100EBCE3D /* Build configuration list for PBXNativeTarget "InterviewUITests" */ = {
 			isa = XCConfigurationList;
@@ -581,6 +599,7 @@
 				0BA58BF71CCB3F9100EBCE3D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
